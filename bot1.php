@@ -26,8 +26,8 @@ if(preg_match('/Success/i', $otp)){
 } else {
     echo "Gagal";
     echo "\nApakah Kamu mau mengulang? y/n"
-    $pilih1 = trim(fgets(STDIN));
-         if($pilih1 == "y" || $pilih1 == "Y"){ goto ulang}
+    $pilih = trim(fgets(STDIN));
+         if($pilih == "y" || $pilih == "Y"){ goto ulang;}
     else{exit;}
 }
 goto ulang;
