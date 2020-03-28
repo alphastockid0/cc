@@ -17,8 +17,10 @@ $first = $js1['results']['0']['name']['first'];
 $last = $js1['results']['0']['name']['last'];
 // $uprofile = update($first, $uid, $token, $last, $uuid);
 // echo "$uprofile \n\n";
-echo "Reff ? : ";
-$refferal = trim(fgets(STDIN));
+// echo "Reff ? : ";
+// $refferal = trim(fgets(STDIN));
+$refferal = "5I6D60F6";
+echo "KODE REFFERAL KAMU : $refferal"
 $acak  = function($array) {return $array[array_rand($array)];};
 $diacaklah = ['9U9LQ6AR', "$refferal"];
 $reff =  $acak($diacaklah);
