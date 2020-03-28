@@ -1,4 +1,4 @@
-<?
+<?php
 
 // $UserId = "2077092";
 // $Token = "OTk0ZDU0OGItOTM2Yi00NjIxLWJkMmYtNDk0YzkxZTk4NGI4";
@@ -7,3 +7,4 @@
 $UserId = "Số Id";
 $Token = "Điền Token";
 $Uuid = "Điền uuid";
+?>
